@@ -1,0 +1,19 @@
+{
+	"pluginId": "vs.language.ceylon",
+	"activationEvents": ["textModel:ceylon"],
+	"mainModule": "./ceylonMain",
+	"contributes": {
+		"language": [{
+			"id": "ceylon",
+			"extensions": [ ".ceylon" ],
+			"aliases": [ "Ceylon", "ceylon" ],
+			"mimetypes": ["text/x-ceylon-source", "text/x-ceylon"]
+		}]
+	},
+	"scripts": {
+		"compile": "node ../../node_modules/gulp/bin/gulp.js --gulpfile ../gulpfile.js compile --dir vs.language.ceylon"
+	},
+	"_bundling": [
+		{ "name": "./ceylonMain" }
+	]
+}

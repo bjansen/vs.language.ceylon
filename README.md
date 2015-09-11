@@ -1,7 +1,7 @@
 # vs.language.ceylon
 Syntax highlighting for [Ceylon](http://www.ceylon-lang.org) in [Visual Studio Code](https://code.visualstudio.com/).
 
-Based on `vs.language.java`, tested on Visual Studio Code 0.7.0 on OS X.
+Based on `vs.language.java`, tested on Visual Studio Code [0.7.0,0.8.0] on OS X.
 
 ## How to install
 

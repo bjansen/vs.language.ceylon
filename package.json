@@ -1,0 +1,20 @@
+{
+	"name": "Ceylon",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "none",
+	"contributes": {
+		"languages": [{
+			"id": "ceylon",
+			"aliases": ["Ceylon", "ceylon"],
+			"extensions": [".ceylon"]
+		}],
+		"grammars": [{
+			"language": "ceylon",
+			"scopeName": "source.ceylon",
+			"path": "./syntaxes/ceylon.tmLanguage"
+		}]
+	}
+}

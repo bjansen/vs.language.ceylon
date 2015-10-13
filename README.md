@@ -1,15 +1,17 @@
 # vs.language.ceylon
 Syntax highlighting for [Ceylon](http://www.ceylon-lang.org) in [Visual Studio Code](https://code.visualstudio.com/).
 
-Based on `vs.language.java`, tested on Visual Studio Code [0.7.0,0.8.0] on OS X.
+Based on [ceylon-sublimetext](https://github.com/jeancharles-roger/ceylon-sublimetext), tested on Visual Studio Code 0.9.1 on OS X.
+For previous versions of Visual Studio Code, please checkout the branch `pre-0.9.0`.
 
 ## How to install
 
-Simply clone this repository in Visual Studio Code's `plugin` directory:
+Simply clone this repository in Visual Studio Code's customizations directory:
 
-- on OS X: `/Applications/Visual Studio Code.app/Contents/Resources/app/plugins/`
-- on Windows: `C:\Users\USER\AppData\Local\Code\app-0.7.0\resources\app\plugins`
+- Windows %USERPROFILE%\.vscode\extensions
+- Mac $HOME/.vscode/extensions
+- Linux $HOME/.vscode/extensions
  
 ## Screenshot
 
-![Screenshot](http://i.imgur.com/K3dZIT4.png)
+![Screenshot](http://i.imgur.com/GVu6EnP.png)

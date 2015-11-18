@@ -4,7 +4,9 @@
 	"engines": {
 		"vscode": ">=0.9.0-pre.1"
 	},
-	"publisher": "none",
+	"publisher": "bjansen",
+	"repository": "https://github.com/bjansen/vs.language.ceylon",
+	"icon": "./logo.png",
 	"contributes": {
 		"languages": [{
 			"id": "ceylon",

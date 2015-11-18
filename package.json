@@ -5,8 +5,10 @@
 		"vscode": ">=0.9.0-pre.1"
 	},
 	"publisher": "bjansen",
+	"categories": ["Languages"],
 	"repository": "https://github.com/bjansen/vs.language.ceylon",
-	"icon": "./logo.png",
+	"icon": "logo.png",
+	"description": "Say more, more clearly!",
 	"contributes": {
 		"languages": [{
 			"id": "ceylon",

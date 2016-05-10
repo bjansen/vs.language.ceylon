@@ -6,8 +6,10 @@
 	},
 	"publisher": "bjansen",
 	"categories": ["Languages"],
+	"keywords": ["ceylon"],
 	"repository": "https://github.com/bjansen/vs.language.ceylon",
 	"icon": "logo.png",
+	"displayName": "Ceylon",
 	"description": "Say more, more clearly!",
 	"contributes": {
 		"languages": [{
